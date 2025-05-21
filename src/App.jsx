@@ -1,3 +1,5 @@
+import { getMockAstroContext } from "./api/astrology";
+import { getAstrologyReply } from "./api/openai";
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
